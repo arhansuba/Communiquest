@@ -1,0 +1,10 @@
+{
+    "port": 3000,
+    "mongoURI": "mongodb://localhost:27017/communiquest",
+    "dscvrApiUrl": "https://api.dscvr.one",
+    "dscvrApiKey": "your_dscvr_api_key_here",
+    "heliusApiUrl": "https://api.helius.xyz",
+    "heliusApiKey": "your_helius_api_key_here",
+    "solanaRpcUrl": "https://api.devnet.solana.com",
+    "metaplexApiUrl": "https://api.metaplex.solana.com"
+}
