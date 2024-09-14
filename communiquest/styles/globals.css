@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add any global styles here */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Custom utility classes */
+.btn {
+  @apply px-4 py-2 rounded font-semibold text-white transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600;
+}
+
+.btn-secondary {
+  @apply bg-gray-500 hover:bg-gray-600;
+}
