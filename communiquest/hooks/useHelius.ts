@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { HELIUS_API_KEY } from '../config/constants';
+import { HELIUS_API_KEY } from '../../config/constants';
 
 export const useHelius = (walletAddress: string) => {
   const [nfts, setNFTs] = useState<any[]>([]);
